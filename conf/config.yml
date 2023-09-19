@@ -1,0 +1,6 @@
+server:
+  port: 8080
+db:
+  dsn: root:root@tcp(172.16.200.202:3306)/go_test?charset=utf8mb4&parseTime=True
+logging:
+  filepath: log/app.log
